@@ -1,0 +1,290 @@
+/*
+ * find-a-pi.css — Styles for the Find a Private Investigator widget
+ *
+ * Customize with CSS custom properties on .fpi-widget or any ancestor:
+ *   --fpi-primary      Link/tag accent color      (default: #1a56db)
+ *   --fpi-radius       Card border radius          (default: 12px)
+ *   --fpi-font         Widget font family          (default: system-ui)
+ */
+
+.fpi-widget {
+  --fpi-primary: #1a56db;
+  --fpi-primary-light: #e8f0fe;
+  --fpi-text: #111827;
+  --fpi-text-muted: #6b7280;
+  --fpi-border: #e5e7eb;
+  --fpi-bg: #ffffff;
+  --fpi-surface: #f9fafb;
+  --fpi-radius: 12px;
+  --fpi-font: system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
+  --fpi-shadow: 0 1px 3px rgba(0, 0, 0, 0.08), 0 1px 2px rgba(0, 0, 0, 0.06);
+  --fpi-shadow-hover: 0 4px 12px rgba(0, 0, 0, 0.1), 0 2px 4px rgba(0, 0, 0, 0.06);
+
+  font-family: var(--fpi-font);
+  font-size: 15px;
+  color: var(--fpi-text);
+  line-height: 1.5;
+  box-sizing: border-box;
+}
+
+.fpi-widget *,
+.fpi-widget *::before,
+.fpi-widget *::after {
+  box-sizing: inherit;
+}
+
+/* ── Filters ───────────────────────────────────────────────────── */
+
+.fpi-filters {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.625rem;
+  margin-bottom: 1.25rem;
+}
+
+.fpi-search-wrap {
+  position: relative;
+  flex: 1 1 220px;
+}
+
+.fpi-search-icon {
+  position: absolute;
+  left: 0.75rem;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 16px;
+  height: 16px;
+  color: var(--fpi-text-muted);
+  pointer-events: none;
+}
+
+.fpi-input {
+  width: 100%;
+  height: 42px;
+  padding: 0 0.875rem;
+  border: 1.5px solid var(--fpi-border);
+  border-radius: 8px;
+  background: var(--fpi-bg);
+  color: var(--fpi-text);
+  font-family: var(--fpi-font);
+  font-size: 0.9375rem;
+  outline: none;
+  transition: border-color 0.15s, box-shadow 0.15s;
+  appearance: none;
+  -webkit-appearance: none;
+}
+
+.fpi-input:focus {
+  border-color: var(--fpi-primary);
+  box-shadow: 0 0 0 3px rgba(26, 86, 219, 0.15);
+}
+
+.fpi-search {
+  padding-left: 2.5rem;
+}
+
+.fpi-select {
+  flex: 0 1 160px;
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 20 20' fill='none'%3E%3Cpath d='M6 8l4 4 4-4' stroke='%236b7280' stroke-width='1.5' stroke-linecap='round' stroke-linejoin='round'/%3E%3C/svg%3E");
+  background-repeat: no-repeat;
+  background-position: right 0.625rem center;
+  background-size: 18px;
+  padding-right: 2rem;
+  cursor: pointer;
+}
+
+/* ── Result count ──────────────────────────────────────────────── */
+
+.fpi-results-meta {
+  font-size: 0.875rem;
+  color: var(--fpi-text-muted);
+  margin-bottom: 1rem;
+}
+
+/* ── Grid ──────────────────────────────────────────────────────── */
+
+.fpi-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+  gap: 1.125rem;
+}
+
+/* ── Card ──────────────────────────────────────────────────────── */
+
+.fpi-card {
+  background: var(--fpi-bg);
+  border: 1.5px solid var(--fpi-border);
+  border-radius: var(--fpi-radius);
+  box-shadow: var(--fpi-shadow);
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+  transition: box-shadow 0.2s, transform 0.2s;
+}
+
+.fpi-card:hover {
+  box-shadow: var(--fpi-shadow-hover);
+  transform: translateY(-2px);
+}
+
+/* Card header */
+
+.fpi-card-header {
+  display: flex;
+  align-items: center;
+  gap: 0.875rem;
+  padding: 1.125rem 1.125rem 0.875rem;
+  border-bottom: 1.5px solid var(--fpi-border);
+}
+
+.fpi-avatar {
+  flex-shrink: 0;
+  width: 44px;
+  height: 44px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1.1rem;
+  font-weight: 700;
+  color: #ffffff;
+  letter-spacing: 0;
+}
+
+.fpi-card-identity {
+  min-width: 0;
+}
+
+.fpi-pi-name {
+  margin: 0;
+  font-size: 1rem;
+  font-weight: 600;
+  color: var(--fpi-text);
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.fpi-firm-name {
+  margin: 0.125rem 0 0;
+  font-size: 0.8125rem;
+  color: var(--fpi-text-muted);
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+/* Card body */
+
+.fpi-card-body {
+  padding: 0.875rem 1.125rem;
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  gap: 0.625rem;
+}
+
+.fpi-location {
+  display: flex;
+  align-items: center;
+  gap: 0.375rem;
+  font-size: 0.875rem;
+  color: var(--fpi-text-muted);
+}
+
+.fpi-location svg {
+  width: 14px;
+  height: 14px;
+  flex-shrink: 0;
+  color: var(--fpi-primary);
+}
+
+.fpi-tags {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.375rem;
+}
+
+.fpi-tag {
+  display: inline-block;
+  padding: 0.2rem 0.625rem;
+  background: var(--fpi-primary-light);
+  color: var(--fpi-primary);
+  border-radius: 999px;
+  font-size: 0.75rem;
+  font-weight: 500;
+  white-space: nowrap;
+}
+
+/* Card footer */
+
+.fpi-card-footer {
+  padding: 0.75rem 1.125rem;
+  border-top: 1.5px solid var(--fpi-border);
+  background: var(--fpi-surface);
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+}
+
+.fpi-contact-link {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.3rem;
+  font-size: 0.8125rem;
+  color: var(--fpi-primary);
+  text-decoration: none;
+  font-weight: 500;
+  padding: 0.25rem 0.5rem;
+  border-radius: 6px;
+  transition: background 0.15s, color 0.15s;
+}
+
+.fpi-contact-link svg {
+  width: 13px;
+  height: 13px;
+  flex-shrink: 0;
+}
+
+.fpi-contact-link:hover {
+  background: var(--fpi-primary-light);
+}
+
+.fpi-website-link {
+  margin-left: auto;
+}
+
+/* ── States ────────────────────────────────────────────────────── */
+
+.fpi-loading,
+.fpi-error,
+.fpi-empty {
+  padding: 2.5rem 1.5rem;
+  text-align: center;
+  color: var(--fpi-text-muted);
+  font-size: 0.9375rem;
+  border: 1.5px dashed var(--fpi-border);
+  border-radius: var(--fpi-radius);
+}
+
+.fpi-error {
+  color: #b91c1c;
+  border-color: #fca5a5;
+  background: #fef2f2;
+}
+
+/* ── Responsive ────────────────────────────────────────────────── */
+
+@media (max-width: 600px) {
+  .fpi-search-wrap {
+    flex: 1 1 100%;
+  }
+
+  .fpi-select {
+    flex: 1 1 calc(50% - 0.3125rem);
+  }
+
+  .fpi-website-link {
+    margin-left: 0;
+  }
+}

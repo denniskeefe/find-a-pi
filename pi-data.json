@@ -1,0 +1,169 @@
+{
+  "investigators": [
+    {
+      "id": 1,
+      "name": "Michael Torres",
+      "firm": "Torres Investigative Services",
+      "city": "Los Angeles",
+      "state": "CA",
+      "phone": "(323) 555-0142",
+      "email": "contact@example-torres.com",
+      "website": "https://example.com",
+      "specialties": ["Surveillance", "Infidelity", "Insurance Fraud"]
+    },
+    {
+      "id": 2,
+      "name": "Sandra Whitfield",
+      "firm": "Whitfield & Associates",
+      "city": "San Francisco",
+      "state": "CA",
+      "phone": "(415) 555-0198",
+      "email": "sandra@example-whitfield.com",
+      "website": "https://example.com",
+      "specialties": ["Corporate Investigations", "Background Checks", "Asset Search"]
+    },
+    {
+      "id": 3,
+      "name": "James Calloway",
+      "firm": "Lone Star Investigations",
+      "city": "Houston",
+      "state": "TX",
+      "phone": "(713) 555-0177",
+      "email": "james@example-lonestar.com",
+      "website": "https://example.com",
+      "specialties": ["Surveillance", "Child Custody", "Skip Tracing"]
+    },
+    {
+      "id": 4,
+      "name": "Diana Park",
+      "firm": "Park Investigative Group",
+      "city": "Dallas",
+      "state": "TX",
+      "phone": "(214) 555-0163",
+      "email": "info@example-parkpi.com",
+      "website": "",
+      "specialties": ["Insurance Fraud", "Background Checks", "Missing Persons"]
+    },
+    {
+      "id": 5,
+      "name": "Robert Mancini",
+      "firm": "Mancini Investigations LLC",
+      "city": "New York",
+      "state": "NY",
+      "phone": "(212) 555-0134",
+      "email": "rmancini@example-mancini.com",
+      "website": "https://example.com",
+      "specialties": ["Corporate Investigations", "Surveillance", "Asset Search"]
+    },
+    {
+      "id": 6,
+      "name": "Angela Brooks",
+      "firm": "Brooks Legal Investigations",
+      "city": "Buffalo",
+      "state": "NY",
+      "phone": "(716) 555-0121",
+      "email": "angela@example-brookslegal.com",
+      "website": "",
+      "specialties": ["Criminal Defense", "Background Checks", "Skip Tracing"]
+    },
+    {
+      "id": 7,
+      "name": "Carlos Reyes",
+      "firm": "Reyes Surveillance & Security",
+      "city": "Miami",
+      "state": "FL",
+      "phone": "(305) 555-0189",
+      "email": "carlos@example-reyes.com",
+      "website": "https://example.com",
+      "specialties": ["Surveillance", "Infidelity", "Child Custody"]
+    },
+    {
+      "id": 8,
+      "name": "Patricia Donovan",
+      "firm": "Donovan Inquiry Services",
+      "city": "Orlando",
+      "state": "FL",
+      "phone": "(407) 555-0156",
+      "email": "pat@example-donovan.com",
+      "website": "https://example.com",
+      "specialties": ["Missing Persons", "Insurance Fraud", "Background Checks"]
+    },
+    {
+      "id": 9,
+      "name": "Kevin Walsh",
+      "firm": "Midwest Private Eye",
+      "city": "Chicago",
+      "state": "IL",
+      "phone": "(312) 555-0145",
+      "email": "kevin@example-midwestpi.com",
+      "website": "https://example.com",
+      "specialties": ["Surveillance", "Corporate Investigations", "Skip Tracing"]
+    },
+    {
+      "id": 10,
+      "name": "Lena Fischer",
+      "firm": "Fischer Fact-Finding Services",
+      "city": "Atlanta",
+      "state": "GA",
+      "phone": "(404) 555-0172",
+      "email": "lena@example-fischer.com",
+      "website": "",
+      "specialties": ["Background Checks", "Asset Search", "Child Custody"]
+    },
+    {
+      "id": 11,
+      "name": "Marcus Webb",
+      "firm": "Webb Investigations",
+      "city": "Seattle",
+      "state": "WA",
+      "phone": "(206) 555-0183",
+      "email": "marcus@example-webb.com",
+      "website": "https://example.com",
+      "specialties": ["Corporate Investigations", "Criminal Defense", "Surveillance"]
+    },
+    {
+      "id": 12,
+      "name": "Teresa Nguyen",
+      "firm": "Pacific Rim Investigations",
+      "city": "Portland",
+      "state": "OR",
+      "phone": "(503) 555-0167",
+      "email": "teresa@example-pacrim.com",
+      "website": "https://example.com",
+      "specialties": ["Missing Persons", "Infidelity", "Background Checks"]
+    },
+    {
+      "id": 13,
+      "name": "Harold Stone",
+      "firm": "Stone Cold Investigations",
+      "city": "Philadelphia",
+      "state": "PA",
+      "phone": "(215) 555-0138",
+      "email": "harold@example-stonecold.com",
+      "website": "",
+      "specialties": ["Insurance Fraud", "Surveillance", "Skip Tracing"]
+    },
+    {
+      "id": 14,
+      "name": "Monique LeBlanc",
+      "firm": "LeBlanc Discreet Investigations",
+      "city": "Charlotte",
+      "state": "NC",
+      "phone": "(704) 555-0194",
+      "email": "monique@example-leblanc.com",
+      "website": "https://example.com",
+      "specialties": ["Infidelity", "Child Custody", "Asset Search"]
+    },
+    {
+      "id": 15,
+      "name": "Victor Okafor",
+      "firm": "Okafor Consulting & Investigations",
+      "city": "Phoenix",
+      "state": "AZ",
+      "phone": "(602) 555-0129",
+      "email": "victor@example-okafor.com",
+      "website": "https://example.com",
+      "specialties": ["Corporate Investigations", "Background Checks", "Criminal Defense"]
+    }
+  ]
+}
