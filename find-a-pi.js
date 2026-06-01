@@ -130,8 +130,8 @@
               <option value="">All States</option>
               ${stateOptions}
             </select>
-            <select class="fpi-input fpi-select" aria-label="Filter by specialty">
-              <option value="">All Specialties</option>
+            <select class="fpi-input fpi-select" aria-label="Filter by member type">
+              <option value="">All Member Types</option>
               ${specialtyOptions}
             </select>
           </div>
@@ -180,13 +180,23 @@
         ? `<a class="fpi-contact-link fpi-website-link" href="${escapeHtml(pi.website)}" target="_blank" rel="noopener noreferrer" aria-label="Visit ${escapeHtml(pi.firm)} website">${ICONS.globe}<span>Website</span></a>`
         : '';
 
+      const memoriamBanner = pi.in_memoriam
+        ? `<div class="fpi-memoriam-banner">✦ In Memoriam</div>`
+        : '';
+
+      const roleEl = pi.role
+        ? `<p class="fpi-role">${escapeHtml(pi.role)}</p>`
+        : '';
+
       return `
-        <div class="fpi-card" role="listitem">
+        <div class="fpi-card${pi.in_memoriam ? ' fpi-card--memoriam' : ''}" role="listitem">
+          ${memoriamBanner}
           <div class="fpi-card-header">
             <div class="fpi-avatar" style="background:${color}" aria-hidden="true">${initial}</div>
             <div class="fpi-card-identity">
               <h3 class="fpi-pi-name">${escapeHtml(pi.name)}</h3>
               <p class="fpi-firm-name">${escapeHtml(pi.firm)}</p>
+              ${roleEl}
             </div>
           </div>
           <div class="fpi-card-body">

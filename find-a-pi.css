@@ -254,6 +254,39 @@
   margin-left: auto;
 }
 
+/* ── Role ──────────────────────────────────────────────────────── */
+
+.fpi-role {
+  margin: 0.125rem 0 0;
+  font-size: 0.75rem;
+  color: var(--fpi-primary);
+  font-style: italic;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+/* ── In Memoriam ───────────────────────────────────────────────── */
+
+.fpi-memoriam-banner {
+  background: #f3f4f6;
+  color: #6b7280;
+  font-size: 0.75rem;
+  font-weight: 600;
+  letter-spacing: 0.04em;
+  text-align: center;
+  padding: 0.375rem 1rem;
+  border-bottom: 1.5px solid var(--fpi-border);
+}
+
+.fpi-card--memoriam {
+  opacity: 0.82;
+}
+
+.fpi-card--memoriam .fpi-avatar {
+  background: #9ca3af !important;
+}
+
 /* ── States ────────────────────────────────────────────────────── */
 
 .fpi-loading,
