@@ -18,7 +18,7 @@
     {
       "id": 2,
       "name": "Alice Martin",
-      "firm": "",
+      "firm": "A Lies Investigations",
       "city": "Bonners Ferry",
       "state": "ID",
       "country": "US",
@@ -225,7 +225,21 @@
       "role": "",
       "in_memoriam": false
     },
-    
+    {
+      "id": 16,
+      "name": "Dennis Keefe",
+      "firm": "",
+      "city": "",
+      "state": "FL",
+      "country": "US",
+      "phone": "850-541-6534",
+      "email": "denniskeefe@pm.me",
+      "website": "https://denniskeefe.me",
+      "specialties": ["Associate"],
+      "membership": "Associate",
+      "role": "OSINT Analyst Chair",
+      "in_memoriam": false
+    },
     {
       "id": 17,
       "name": "Dennis Keefe",
@@ -236,8 +250,8 @@
       "phone": "352-437-6044",
       "email": "dennis@panhandleinv.com",
       "website": "https://panhandleinvestigativesolutions.com",
-      "specialties": ["Active"],
-      "membership": "Active",
+      "specialties": ["Associate"],
+      "membership": "Associate",
       "role": "Private Investigator",
       "in_memoriam": false
     },
@@ -531,7 +545,7 @@
       "name": "Lawrence Coker",
       "firm": "Lawrence Coker Professional Investigator",
       "city": "Calgary",
-      "state": "Canada",
+      "state": "Alberta",
       "country": "Canada",
       "phone": "403-455-9605",
       "email": "investigator.coker@gmail.com",
@@ -739,7 +753,7 @@
     {
       "id": 51,
       "name": "Nickolas Montano",
-      "firm": "Nick Montano PI",
+      "firm": "",
       "city": "Walnut Creek",
       "state": "CA",
       "country": "US",
