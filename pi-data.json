@@ -226,21 +226,6 @@
       "in_memoriam": false
     },
     {
-      "id": 16,
-      "name": "Dennis Keefe",
-      "firm": "",
-      "city": "",
-      "state": "FL",
-      "country": "US",
-      "phone": "850-541-6534",
-      "email": "denniskeefe@pm.me",
-      "website": "https://denniskeefe.me",
-      "specialties": ["Associate"],
-      "membership": "Associate",
-      "role": "OSINT Analyst Chair",
-      "in_memoriam": false
-    },
-    {
       "id": 17,
       "name": "Dennis Keefe",
       "firm": "Panhandle Investigative Solutions LLC",
@@ -252,7 +237,7 @@
       "website": "https://panhandleinvestigativesolutions.com",
       "specialties": ["Associate"],
       "membership": "Associate",
-      "role": "Private Investigator",
+      "role": "Private Investigator / OSINT Analyst Chair",
       "in_memoriam": false
     },
     {
