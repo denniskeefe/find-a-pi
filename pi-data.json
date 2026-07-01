@@ -136,21 +136,6 @@
       "in_memoriam": false
     },
     {
-      "id": 10,
-      "name": "Claire Roise",
-      "firm": "Bright Rock PI",
-      "city": "Moscow",
-      "state": "ID",
-      "country": "US",
-      "phone": "208-882-0423",
-      "email": "brightrockpi@gmail.com",
-      "website": "https://brightrock.net/pi/",
-      "specialties": ["Active"],
-      "membership": "Active - Regular",
-      "role": "",
-      "in_memoriam": false
-    },
-    {
       "id": 11,
       "name": "Clint Colvin",
       "firm": "Rainier Investigative Group",
@@ -974,6 +959,21 @@
       "specialties": ["Active"],
       "membership": "Active - Regular",
       "role": "",
+      "in_memoriam": false
+    },
+    {
+      "id": 67,
+      "name": "Steven DeGon",
+      "firm": "Counterpoint Detective Agency",
+      "city": "Post Falls",
+      "state": "ID",
+      "country": "US",
+      "phone": "208-473-4094",
+      "email": "counterpointda@gmail.com",
+      "website": "https://counterpointda.com",
+      "specialties": ["Active"],
+      "membership": "Active",
+      "role": "Private Investigator | Public Safety | General Investigations",
       "in_memoriam": false
     }
   ]
