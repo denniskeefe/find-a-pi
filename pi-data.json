@@ -975,6 +975,21 @@
       "membership": "Active",
       "role": "Private Investigator | Public Safety | General Investigations",
       "in_memoriam": false
+    },
+    {
+      "id": 68,
+      "name": "Michael Toth",
+      "firm": "Elite Investigations",
+      "city": "Billings",
+      "state": "MT",
+      "country": "US",
+      "phone": "406-698-8911",
+      "email": "info@elitepimt.com",
+      "website": "https://elitepimt.com",
+      "specialties": ["Active"],
+      "membership": "Active",
+      "role": "Private Investigator | Owner | Founder, MTALI",
+      "in_memoriam": false
     }
   ]
 }
