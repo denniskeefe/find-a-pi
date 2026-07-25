@@ -990,6 +990,21 @@
       "membership": "Active",
       "role": "Private Investigator | Owner | Founder, MTALI",
       "in_memoriam": false
+    },
+    {
+      "id": 69,
+      "name": "Glen Michaelson",
+      "firm": "Idaho Digital Forensics",
+      "city": "Nampa",
+      "state": "ID",
+      "country": "US",
+      "phone": "208-730-7325",
+      "email": "",
+      "website": "https://idahodigitalforensics.com/",
+      "specialties": ["Affiliate"],
+      "membership": "Affiliate",
+      "role": "Digital Forensics Examiner",
+      "in_memoriam": false
     }
   ]
 }
