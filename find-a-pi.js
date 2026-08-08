@@ -20,6 +20,10 @@
     '#1a56db', '#7e3af2', '#0e9f6e', '#e3a008', '#e02424', '#ff5a1f', '#6b7280'
   ];
 
+  // Member types always offered in the filter, in display order. Any other
+  // value found in the data is appended after these.
+  const MEMBER_TYPES = ['Active', 'Associate', 'Affiliate', 'Student', 'Cyber-OSINT'];
+
   function avatarColor(name) {
     let hash = 0;
     for (let i = 0; i < name.length; i++) {
@@ -85,7 +89,9 @@
     }
 
     getSpecialties() {
-      return [...new Set(this.investigators.flatMap(pi => pi.specialties || []))].sort();
+      const found = new Set(this.investigators.flatMap(pi => pi.specialties || []));
+      const extras = [...found].filter(s => !MEMBER_TYPES.includes(s)).sort();
+      return [...MEMBER_TYPES, ...extras];
     }
 
     applyFilters() {
@@ -188,6 +194,14 @@
         ? `<p class="fpi-role">${escapeHtml(pi.role)}</p>`
         : '';
 
+      const streetEl = pi.address
+        ? `<span class="fpi-street">${escapeHtml(pi.address)}</span>`
+        : '';
+
+      const licenseEl = pi.license
+        ? `<div class="fpi-license">License #${escapeHtml(pi.license)}</div>`
+        : '';
+
       return `
         <div class="fpi-card${pi.in_memoriam ? ' fpi-card--memoriam' : ''}" role="listitem">
           ${memoriamBanner}
@@ -202,8 +216,12 @@
           <div class="fpi-card-body">
             <div class="fpi-location">
               ${ICONS.location}
-              <span>${escapeHtml(pi.city)}, ${escapeHtml(pi.state)}</span>
+              <span class="fpi-address">
+                ${streetEl}
+                <span>${escapeHtml(pi.city)}, ${escapeHtml(pi.state)}</span>
+              </span>
             </div>
+            ${licenseEl}
             <div class="fpi-tags">${tags}</div>
           </div>
           <div class="fpi-card-footer">

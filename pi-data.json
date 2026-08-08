@@ -1005,6 +1005,23 @@
       "membership": "Affiliate",
       "role": "Digital Forensics Examiner",
       "in_memoriam": false
+    },
+    {
+      "id": 70,
+      "name": "Brad Thomsen",
+      "firm": "Big Bear Investigations",
+      "license": "23002979",
+      "address": "18908 92nd Ave W",
+      "city": "Edmonds",
+      "state": "WA",
+      "country": "US",
+      "phone": "425-890-4649",
+      "email": "",
+      "website": "https://bigbearinvestigations.com/",
+      "specialties": ["Active", "Cyber-OSINT"],
+      "membership": "Active",
+      "role": "Principal / Owner",
+      "in_memoriam": false
     }
   ]
 }
