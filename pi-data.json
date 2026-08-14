@@ -1023,6 +1023,21 @@
       "membership": "Active",
       "role": "Principal / Owner",
       "in_memoriam": false
+    },
+    {
+      "id": 71,
+      "name": "Joanna Wiggum",
+      "firm": "Countervail LLC",
+      "city": "",
+      "state": "WA",
+      "country": "US",
+      "phone": "",
+      "email": "contact@countervailintelligence.com",
+      "website": "https://www.countervailintelligence.com",
+      "specialties": ["Active", "Cyber-OSINT"],
+      "membership": "Active",
+      "role": "Agency Principal, Countervail | President of Operations, Child Shield | Licensed Cybercrime Investigator",
+      "in_memoriam": false
     }
   ]
 }
