@@ -1053,6 +1053,22 @@
       "membership": "Affiliate",
       "role": "Founder, OSINTVerse (Delaware, USA) | Founder, OSINT Ambition (Delhi, India) | Creator, Profiler.Me OSINT Platform",
       "in_memoriam": false
+    },
+    {
+      "id": 73,
+      "name": "Eitan Livne",
+      "firm": "EL Intelligence Consulting",
+      "city": "",
+      "state": "",
+      "country": "US",
+      "phone": "",
+      "email": "eitan@elconsulting.us",
+      "website": "https://osint-training-hub.base44.app/",
+      "linkedin": "https://www.linkedin.com/in/eitan-livne-10673596/",
+      "specialties": ["Affiliate", "Cyber-OSINT"],
+      "membership": "Affiliate",
+      "role": "Founder, EL Intelligence Consulting | OSINT Consultant and Trainer",
+      "in_memoriam": false
     }
   ]
 }
