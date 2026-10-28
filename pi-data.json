@@ -1069,6 +1069,21 @@
       "membership": "Affiliate",
       "role": "Founder, EL Intelligence Consulting | OSINT Consultant and Trainer",
       "in_memoriam": false
+    },
+    {
+      "id": 74,
+      "name": "Nicole Hensiek",
+      "firm": "Alpha Female Investigations",
+      "city": "",
+      "state": "TX",
+      "country": "US",
+      "phone": "903-910-5060",
+      "email": "nihen700@gmail.com",
+      "website": "",
+      "specialties": ["Associate", "Cyber-OSINT"],
+      "membership": "Associate",
+      "role": "Private Investigator, Alpha Female Investigations | Volunteer Advocate, International Associates of Technology Advocates (IATA) | System Manager, XigentIQ | Notary of Texas",
+      "in_memoriam": false
     }
   ]
 }
