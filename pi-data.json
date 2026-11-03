@@ -1084,6 +1084,22 @@
       "membership": "Associate",
       "role": "Private Investigator, Alpha Female Investigations | Volunteer Advocate, International Associates of Technology Advocates (IATA) | System Manager, XigentIQ | Notary of Texas",
       "in_memoriam": false
+    },
+    {
+      "id": 75,
+      "name": "Amy Graves",
+      "firm": "Alpha Female Investigations",
+      "city": "Forney",
+      "state": "TX",
+      "country": "US",
+      "phone": "469-685-9185",
+      "email": "amy@txafi.com",
+      "website": "https://www.txafi.com/",
+      "linkedin": "https://www.linkedin.com/in/girlbehindthegun",
+      "specialties": ["Associate"],
+      "membership": "Associate",
+      "role": "Owner & Lead Investigator, Alpha Female Investigations | Licensed Private Investigator (LPI)",
+      "in_memoriam": false
     }
   ]
 }
